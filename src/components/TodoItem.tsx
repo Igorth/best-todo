@@ -22,7 +22,7 @@ export default function TodoItem({
         />
         <span
           className={
-            todo.completed ? 'line-through text-gray-400' : 'bg-green-400'
+            todo.completed ? 'line-through text-gray-400' : 'text-gray-900'
           }
         >
           {todo.title}
